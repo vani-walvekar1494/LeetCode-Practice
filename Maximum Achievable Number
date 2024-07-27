@@ -1,0 +1,10 @@
+class Solution:
+    def theMaximumAchievableX(self, num: int, t: int) -> int:
+        return num + t * 2
+
+if __name__ == "__main__":
+    solution = Solution()
+    num = 3
+    t = 2
+    result = solution.theMaximumAchievableX(num, t)
+    print(result)   
